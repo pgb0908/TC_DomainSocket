@@ -1,0 +1,14 @@
+//
+// Created by Tmax on 2021-04-06.
+//
+
+#ifndef THREAD_COMM_USING_DOMAINSOCKET_CHANNEL_H
+#define THREAD_COMM_USING_DOMAINSOCKET_CHANNEL_H
+
+
+class Channel {
+
+};
+
+
+#endif //THREAD_COMM_USING_DOMAINSOCKET_CHANNEL_H
