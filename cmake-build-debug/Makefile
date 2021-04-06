@@ -142,32 +142,32 @@ Thread_Comm_using_DomainSocket/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Comm_using_DomainSocket.dir/build.make CMakeFiles/Thread_Comm_using_DomainSocket.dir/build
 .PHONY : Thread_Comm_using_DomainSocket/fast
 
-Buffer.o: Buffer.cpp.o
+Channel.o: Channel.cpp.o
 
-.PHONY : Buffer.o
+.PHONY : Channel.o
 
 # target to build an object file
-Buffer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Comm_using_DomainSocket.dir/build.make CMakeFiles/Thread_Comm_using_DomainSocket.dir/Buffer.cpp.o
-.PHONY : Buffer.cpp.o
+Channel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Comm_using_DomainSocket.dir/build.make CMakeFiles/Thread_Comm_using_DomainSocket.dir/Channel.cpp.o
+.PHONY : Channel.cpp.o
 
-Buffer.i: Buffer.cpp.i
+Channel.i: Channel.cpp.i
 
-.PHONY : Buffer.i
+.PHONY : Channel.i
 
 # target to preprocess a source file
-Buffer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Comm_using_DomainSocket.dir/build.make CMakeFiles/Thread_Comm_using_DomainSocket.dir/Buffer.cpp.i
-.PHONY : Buffer.cpp.i
+Channel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Comm_using_DomainSocket.dir/build.make CMakeFiles/Thread_Comm_using_DomainSocket.dir/Channel.cpp.i
+.PHONY : Channel.cpp.i
 
-Buffer.s: Buffer.cpp.s
+Channel.s: Channel.cpp.s
 
-.PHONY : Buffer.s
+.PHONY : Channel.s
 
 # target to generate assembly for a file
-Buffer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Comm_using_DomainSocket.dir/build.make CMakeFiles/Thread_Comm_using_DomainSocket.dir/Buffer.cpp.s
-.PHONY : Buffer.cpp.s
+Channel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Comm_using_DomainSocket.dir/build.make CMakeFiles/Thread_Comm_using_DomainSocket.dir/Channel.cpp.s
+.PHONY : Channel.cpp.s
 
 Handler.o: Handler.cpp.o
 
@@ -250,33 +250,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Comm_using_DomainSocket.dir/build.make CMakeFiles/Thread_Comm_using_DomainSocket.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-string.o: string.cpp.o
-
-.PHONY : string.o
-
-# target to build an object file
-string.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Comm_using_DomainSocket.dir/build.make CMakeFiles/Thread_Comm_using_DomainSocket.dir/string.cpp.o
-.PHONY : string.cpp.o
-
-string.i: string.cpp.i
-
-.PHONY : string.i
-
-# target to preprocess a source file
-string.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Comm_using_DomainSocket.dir/build.make CMakeFiles/Thread_Comm_using_DomainSocket.dir/string.cpp.i
-.PHONY : string.cpp.i
-
-string.s: string.cpp.s
-
-.PHONY : string.s
-
-# target to generate assembly for a file
-string.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Thread_Comm_using_DomainSocket.dir/build.make CMakeFiles/Thread_Comm_using_DomainSocket.dir/string.cpp.s
-.PHONY : string.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,9 +259,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Thread_Comm_using_DomainSocket"
-	@echo "... Buffer.o"
-	@echo "... Buffer.i"
-	@echo "... Buffer.s"
+	@echo "... Channel.o"
+	@echo "... Channel.i"
+	@echo "... Channel.s"
 	@echo "... Handler.o"
 	@echo "... Handler.i"
 	@echo "... Handler.s"
@@ -298,9 +271,6 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... string.o"
-	@echo "... string.i"
-	@echo "... string.s"
 .PHONY : help
 
 

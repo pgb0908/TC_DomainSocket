@@ -82,10 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Buffer.cpp">
+		<Unit filename="/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Channel.cpp">
 			<Option target="Thread_Comm_using_DomainSocket"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Buffer.h">
+		<Unit filename="/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Channel.h">
 			<Option target="Thread_Comm_using_DomainSocket"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Handler.cpp">
@@ -101,12 +101,6 @@
 			<Option target="Thread_Comm_using_DomainSocket"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/main.cpp">
-			<Option target="Thread_Comm_using_DomainSocket"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/string.cpp">
-			<Option target="Thread_Comm_using_DomainSocket"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/string.h">
 			<Option target="Thread_Comm_using_DomainSocket"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/CMakeLists.txt">

@@ -89,18 +89,18 @@ CMakeFiles/Thread_Comm_using_DomainSocket.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thread_Comm_using_DomainSocket.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/main.cpp -o CMakeFiles/Thread_Comm_using_DomainSocket.dir/main.cpp.s
 
-CMakeFiles/Thread_Comm_using_DomainSocket.dir/Buffer.cpp.o: CMakeFiles/Thread_Comm_using_DomainSocket.dir/flags.make
-CMakeFiles/Thread_Comm_using_DomainSocket.dir/Buffer.cpp.o: ../Buffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Thread_Comm_using_DomainSocket.dir/Buffer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Thread_Comm_using_DomainSocket.dir/Buffer.cpp.o -c /mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Buffer.cpp
+CMakeFiles/Thread_Comm_using_DomainSocket.dir/Channel.cpp.o: CMakeFiles/Thread_Comm_using_DomainSocket.dir/flags.make
+CMakeFiles/Thread_Comm_using_DomainSocket.dir/Channel.cpp.o: ../Channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Thread_Comm_using_DomainSocket.dir/Channel.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Thread_Comm_using_DomainSocket.dir/Channel.cpp.o -c /mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Channel.cpp
 
-CMakeFiles/Thread_Comm_using_DomainSocket.dir/Buffer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thread_Comm_using_DomainSocket.dir/Buffer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Buffer.cpp > CMakeFiles/Thread_Comm_using_DomainSocket.dir/Buffer.cpp.i
+CMakeFiles/Thread_Comm_using_DomainSocket.dir/Channel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thread_Comm_using_DomainSocket.dir/Channel.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Channel.cpp > CMakeFiles/Thread_Comm_using_DomainSocket.dir/Channel.cpp.i
 
-CMakeFiles/Thread_Comm_using_DomainSocket.dir/Buffer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thread_Comm_using_DomainSocket.dir/Buffer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Buffer.cpp -o CMakeFiles/Thread_Comm_using_DomainSocket.dir/Buffer.cpp.s
+CMakeFiles/Thread_Comm_using_DomainSocket.dir/Channel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thread_Comm_using_DomainSocket.dir/Channel.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Channel.cpp -o CMakeFiles/Thread_Comm_using_DomainSocket.dir/Channel.cpp.s
 
 CMakeFiles/Thread_Comm_using_DomainSocket.dir/Handler.cpp.o: CMakeFiles/Thread_Comm_using_DomainSocket.dir/flags.make
 CMakeFiles/Thread_Comm_using_DomainSocket.dir/Handler.cpp.o: ../Handler.cpp
@@ -128,38 +128,23 @@ CMakeFiles/Thread_Comm_using_DomainSocket.dir/WorkerThread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thread_Comm_using_DomainSocket.dir/WorkerThread.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/WorkerThread.cpp -o CMakeFiles/Thread_Comm_using_DomainSocket.dir/WorkerThread.cpp.s
 
-CMakeFiles/Thread_Comm_using_DomainSocket.dir/string.cpp.o: CMakeFiles/Thread_Comm_using_DomainSocket.dir/flags.make
-CMakeFiles/Thread_Comm_using_DomainSocket.dir/string.cpp.o: ../string.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Thread_Comm_using_DomainSocket.dir/string.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Thread_Comm_using_DomainSocket.dir/string.cpp.o -c /mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/string.cpp
-
-CMakeFiles/Thread_Comm_using_DomainSocket.dir/string.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Thread_Comm_using_DomainSocket.dir/string.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/string.cpp > CMakeFiles/Thread_Comm_using_DomainSocket.dir/string.cpp.i
-
-CMakeFiles/Thread_Comm_using_DomainSocket.dir/string.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Thread_Comm_using_DomainSocket.dir/string.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/string.cpp -o CMakeFiles/Thread_Comm_using_DomainSocket.dir/string.cpp.s
-
 # Object files for target Thread_Comm_using_DomainSocket
 Thread_Comm_using_DomainSocket_OBJECTS = \
 "CMakeFiles/Thread_Comm_using_DomainSocket.dir/main.cpp.o" \
-"CMakeFiles/Thread_Comm_using_DomainSocket.dir/Buffer.cpp.o" \
+"CMakeFiles/Thread_Comm_using_DomainSocket.dir/Channel.cpp.o" \
 "CMakeFiles/Thread_Comm_using_DomainSocket.dir/Handler.cpp.o" \
-"CMakeFiles/Thread_Comm_using_DomainSocket.dir/WorkerThread.cpp.o" \
-"CMakeFiles/Thread_Comm_using_DomainSocket.dir/string.cpp.o"
+"CMakeFiles/Thread_Comm_using_DomainSocket.dir/WorkerThread.cpp.o"
 
 # External object files for target Thread_Comm_using_DomainSocket
 Thread_Comm_using_DomainSocket_EXTERNAL_OBJECTS =
 
 Thread_Comm_using_DomainSocket: CMakeFiles/Thread_Comm_using_DomainSocket.dir/main.cpp.o
-Thread_Comm_using_DomainSocket: CMakeFiles/Thread_Comm_using_DomainSocket.dir/Buffer.cpp.o
+Thread_Comm_using_DomainSocket: CMakeFiles/Thread_Comm_using_DomainSocket.dir/Channel.cpp.o
 Thread_Comm_using_DomainSocket: CMakeFiles/Thread_Comm_using_DomainSocket.dir/Handler.cpp.o
 Thread_Comm_using_DomainSocket: CMakeFiles/Thread_Comm_using_DomainSocket.dir/WorkerThread.cpp.o
-Thread_Comm_using_DomainSocket: CMakeFiles/Thread_Comm_using_DomainSocket.dir/string.cpp.o
 Thread_Comm_using_DomainSocket: CMakeFiles/Thread_Comm_using_DomainSocket.dir/build.make
 Thread_Comm_using_DomainSocket: CMakeFiles/Thread_Comm_using_DomainSocket.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Thread_Comm_using_DomainSocket"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Thread_Comm_using_DomainSocket"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Thread_Comm_using_DomainSocket.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
