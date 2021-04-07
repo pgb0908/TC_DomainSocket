@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Channel.h
+
+/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Handler.h
+cstdint
+-
+memory
+-
+Channel.h
+/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Channel.h
+
+/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/main.cpp
+iostream
+-
+cstring
+-
+sys/socket.h
+-
+sys/epoll.h
+-
+unistd.h
+-
+sys/un.h
+-
+fcntl.h
+-
+Handler.h
+/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Handler.h
+
