@@ -71,8 +71,10 @@ int main() {
 
             }else{
                 // read
+                int n;
                 int client = events[i].data.fd;
-                int n = read(client, buffer, sizeof(buffer));
+                // 쓰레드로부터 정보 전달받음
+                // n = read(client, buffer, sizeof(buffer));
                 if(n < 0){
                     error_handling("read");
                     epoll_ctl(epfd, EPOLL_CTL_DEL, client, &event);
@@ -91,32 +93,31 @@ int main() {
 }
 
 int setup_domain_socket() {
-    int sock;
+    int sock_fd;
     struct sockaddr_un sun;
 
-    sock = socket(AF_UNIX, SOCK_DGRAM, 0);
-    if(sock < 0){
+    sock_fd = socket(AF_UNIX, SOCK_DGRAM, 0);
+    if(sock_fd < 0){
         error_handling("socket creating");
     }
 
     memset(&sun, 0, sizeof(sun));
 
     sun.sun_family = AF_UNIX;
-    strcpy(sun.sun_path, "/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket");
+    strcpy(sun.sun_path, "/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/domain_socket_ch");
     int sock_addr_len = sizeof(sun.sun_family) + strlen(sun.sun_path);
 
-    if(bind(sock, (struct sockaddr*)&sun, sock_addr_len) < 0){
-        close(sock);
+    if(bind(sock_fd, (struct sockaddr*)&sun, sock_addr_len) < 0){
+        close(sock_fd);
         error_handling("binding");
     }
 
-    if(listen(sock, BACKLOG) < 0){
-        close(sock);
+    if(listen(sock_fd, BACKLOG) < 0){
+        close(sock_fd);
         error_handling("listening");
     }
 
-
-    return 0;
+    return sock_fd;
 }
 
 void error_handling(const char* msg) {
