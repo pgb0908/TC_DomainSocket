@@ -1,13 +1,17 @@
 #include <iostream>
 #include <cstring>
+#include <vector>
+#include <thread>
 
 #include <sys/socket.h>
 #include <sys/epoll.h>
 #include <unistd.h>
 #include <sys/un.h>
 #include <fcntl.h>
+#include <KoThreadPool.hpp>
 
 #include "Handler.h"
+#include "WorkerThread.h"
 
 #define maxEvent 1000
 #define buffer_size 1000
@@ -26,6 +30,16 @@ int main() {
 
     // Handler 객체 생성
     std::shared_ptr<Handler> handler = std::make_shared<Handler>();
+
+    // worker 생성
+    std::shared_ptr<WorkerThread> workerThread = std::make_shared<WorkerThread>();
+
+    KoThreadPool pool;
+    pool.InitThreadPool(4);
+
+    pool.SetWaitingCnt(1);
+    std::function<void()> temp_func = std::bind(&WorkerThread::run, workerThread);
+    pool.AssignTask(temp_func);
 
     // epoll create
     epfd = epoll_create(maxEvent);
@@ -87,7 +101,11 @@ int main() {
                 }
             }
         }
+
     }
+
+    pool.WaitAllWorkDone();
+    pool.Terminate();
 
     return 0;
 }

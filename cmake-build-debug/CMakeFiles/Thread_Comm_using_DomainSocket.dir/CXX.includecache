@@ -8,29 +8,13 @@
 
 /mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Channel.h
 
-/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Handler.h
-cstdint
--
+/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/WorkerThread.cpp
+WorkerThread.h
+/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/WorkerThread.h
+
+/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/WorkerThread.h
 memory
 -
 Channel.h
 /mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Channel.h
-
-/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/main.cpp
-iostream
--
-cstring
--
-sys/socket.h
--
-sys/epoll.h
--
-unistd.h
--
-sys/un.h
--
-fcntl.h
--
-Handler.h
-/mnt/c/Users/Tmax/CLionProjects/Thread_Comm_using_DomainSocket/Handler.h
 

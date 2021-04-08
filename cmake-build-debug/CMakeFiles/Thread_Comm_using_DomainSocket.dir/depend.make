@@ -9,7 +9,6 @@ CMakeFiles/Thread_Comm_using_DomainSocket.dir/Handler.cpp.o: ../Handler.cpp
 CMakeFiles/Thread_Comm_using_DomainSocket.dir/Handler.cpp.o: ../Handler.h
 
 CMakeFiles/Thread_Comm_using_DomainSocket.dir/WorkerThread.cpp.o: ../Channel.h
-CMakeFiles/Thread_Comm_using_DomainSocket.dir/WorkerThread.cpp.o: ../Handler.h
 CMakeFiles/Thread_Comm_using_DomainSocket.dir/WorkerThread.cpp.o: ../WorkerThread.cpp
 CMakeFiles/Thread_Comm_using_DomainSocket.dir/WorkerThread.cpp.o: ../WorkerThread.h
 
